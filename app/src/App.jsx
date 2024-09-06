@@ -4,6 +4,8 @@ import NestPage from './Pages/NestPage'
 import Login from './Pages/Login'
 import Register from './Pages/Register'
 import AdminHome from './Components/Admin/AdminHome'
+import MentorHome from './Components/Mentor/MentorHome'
+import StartUpHome from './Components/Startup/StartUpHome'
 
 function App() {
 
@@ -13,6 +15,8 @@ function App() {
       <Route path='/Login' element={<Login />} />
       <Route path='/Register' element={<Register />} />
       <Route path='/AdminHome' element={<AdminHome />} />
+      <Route path='/MentorHome' element={<MentorHome />} />
+      <Route path='/StartUpHome' element={<StartUpHome />} />
 
     </>
   )
